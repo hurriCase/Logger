@@ -1,0 +1,9 @@
+{
+  "name": "com.firsttry.logger",
+  "version": "1.0.0",
+  "displayName": "Logger",
+  "unity": "2022.1",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
+  }
+}

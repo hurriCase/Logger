@@ -150,7 +150,7 @@ namespace Logger.Runtime
 
         private static void HandleLog(string message, string stackTrace, LogType type)
         {
-            if (_collectLogs is false || (int)type < (int)_minimumLogLevel)
+            if (_collectLogs is false || (int)type > (int)_minimumLogLevel)
                 return;
 
             var index = Interlocked.Increment(ref _currentIndex) % _maxLogEntries;

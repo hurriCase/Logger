@@ -7,3 +7,6 @@
 ## [1.0.2] - 2025-03-20
 ### Fix
 - Was added Assembly for Editor stuff.
+## [1.0.3] - 2025-03-20
+### Fix
+- Minimum log detection logic.
